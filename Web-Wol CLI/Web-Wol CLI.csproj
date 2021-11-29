@@ -10,9 +10,9 @@
     <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <NeutralLanguage>en</NeutralLanguage>
     <AssemblyVersion>1.0.0</AssemblyVersion>
-    <PackageLicenseExpression>GPL3</PackageLicenseExpression>
     <AssemblyName>web-wol_cli</AssemblyName>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <PackageLicenseExpression>GPL3</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

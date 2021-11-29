@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F778ED0E-A8C1-4310-9EF6-DBD0E83DD58B}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		Web-Wol CLI\LICENSE = Web-Wol CLI\LICENSE
+		Web-Wol CLI\README.md = Web-Wol CLI\README.md
 	EndProjectSection
 EndProject
 Global
