@@ -8,8 +8,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F778ED0E-A8C1-4310-9EF6-DBD0E83DD58B}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
-		Web-Wol CLI\LICENSE = Web-Wol CLI\LICENSE
-		Web-Wol CLI\README.md = Web-Wol CLI\README.md
+		LICENSE. = LICENSE.
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Web-Wol Connector", "Web-Wol Connector\Web-Wol Connector.vcxproj", "{E1852BEB-42E4-481A-B577-F2D0CBA6A807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{B1DCCFE3-3472-4004-A235-09E0498A123F}"
+	ProjectSection(SolutionItems) = preProject
+		device.md = device.md
+		user.md = user.md
 	EndProjectSection
 EndProject
 Global
@@ -40,9 +48,28 @@ Global
 		{8981ACBC-CA33-4AC7-985C-69FF1083DF03}.Release|x64.Build.0 = Release|x64
 		{8981ACBC-CA33-4AC7-985C-69FF1083DF03}.Release|x86.ActiveCfg = Release|Any CPU
 		{8981ACBC-CA33-4AC7-985C-69FF1083DF03}.Release|x86.Build.0 = Release|Any CPU
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Debug|Any CPU.Build.0 = Debug|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Debug|arm64.ActiveCfg = Debug|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Debug|arm64.Build.0 = Debug|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Debug|x64.ActiveCfg = Debug|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Debug|x64.Build.0 = Debug|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Debug|x86.ActiveCfg = Debug|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Debug|x86.Build.0 = Debug|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Release|Any CPU.ActiveCfg = Release|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Release|Any CPU.Build.0 = Release|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Release|arm64.ActiveCfg = Release|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Release|arm64.Build.0 = Release|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Release|x64.ActiveCfg = Release|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Release|x64.Build.0 = Release|x64
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Release|x86.ActiveCfg = Release|Win32
+		{E1852BEB-42E4-481A-B577-F2D0CBA6A807}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1DCCFE3-3472-4004-A235-09E0498A123F} = {F778ED0E-A8C1-4310-9EF6-DBD0E83DD58B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5A11FCE9-1DA1-472E-A50F-083013037C00}
